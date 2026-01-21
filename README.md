@@ -1,23 +1,20 @@
-<p align="center">
-    <picture>
-        <source srcset="./assets/logo.png" media="(prefers-color-scheme: dark)">
-        <img src="./assets/logo.png" width="30%">
-    </picture>
-    
-</p>
+# Audio2Video: AI Music Video Generator
 
-<p align="center">
-    <a href="https://heartmula.github.io/">Demo 🎶</a> &nbsp;|&nbsp; 📑 <a href="https://arxiv.org/pdf/2601.10547">Paper</a>
-    <br>
-    <a href="https://huggingface.co/HeartMuLa/HeartMuLa-oss-3B">HeartMuLa-oss-3B 🤗</a> &nbsp;|&nbsp; <a href="https://modelscope.cn/models/HeartMuLa/HeartMuLa-oss-3B">HeartMuLa-oss-3B <picture>
-        <source srcset="./assets/badge.svg" media="(prefers-color-scheme: dark)">
-        <img src="./assets/badge.svg" width="20px">
-    </picture></a>
-    
-</p>
+Generate complete music videos from lyrics and style tags using open-source AI models running locally.
+
+## Features
+
+- **Music Generation**: Generate music from lyrics + style tags using HeartMuLa (3B parameters)
+- **Lyrics Transcription**: Extract timestamped lyrics using HeartTranscriptor or Whisper
+- **Audio Stem Separation**: Separate vocals/instrumental using Demucs
+- **Video Generation**: Generate synced video from audio using Wan 2.2 S2V via ComfyUI
+- **Subtitle Burning**: Add animated lyrics to final video
+
+All models run locally on your GPU (RTX 4090 24GB VRAM recommended).
 
 ---
-# HeartMuLa: A Family of Open Sourced Music Foundation Models
+
+## Based on HeartMuLa: Open Sourced Music Foundation Models
 
 HeartMuLa is a family of open sourced music foundation models including: 
 1. HeartMuLa: a music language model that generates music conditioned on lyrics and tags with multilingual support including but not limited to English, Chinese, Japanese, Korean and Spanish.

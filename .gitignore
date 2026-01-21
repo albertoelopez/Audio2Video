@@ -8,3 +8,20 @@ checkpoint/
 **.egg-info/
 build/
 .idea/
+
+# Model checkpoints (download separately)
+ckpt/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Chat history
+chat_history.txt
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
